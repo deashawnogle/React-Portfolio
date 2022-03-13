@@ -4,6 +4,7 @@ import About from './About'
 import Project from './Project'
 import Contact from './Contact'
 import Footer from './Footer'
+import Header from './Header'
 
 function Container() {
     const [currentPage, setCurrentPage] = useState ('About')

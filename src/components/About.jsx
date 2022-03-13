@@ -1,6 +1,8 @@
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 function About() {
   return (
-    
+
         <div class="card mb-3" style="max-width: 540px;">
           <div div class="row g-0">
             <div class="col-md-4">

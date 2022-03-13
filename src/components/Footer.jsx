@@ -1,3 +1,5 @@
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 function Footer() {
     return(
         <footer class="text-center text-lg-start bg-light text-muted">

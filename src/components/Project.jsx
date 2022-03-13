@@ -1,48 +1,47 @@
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 const projects = [
     {
-        image: require(''),
-        title:,
-        altText:,
-        githubLink:
-        deployedLink:
+        image: require('../images/Weather.png'),
+        title: 'Weather-Dashboard',
+        description: 'Use API to 5day weather forcast',
+        githubLink: 'https://github.com/deashawnogle/Weather-Dashboard',
+        deployedLink: 'https://deashawnogle.github.io/Weather-Dashboard/'
     },
     {
-        image: require(''),
-        title:,
-        altText:,
-        githubLink:
-        deployedLink:
+        image: require('../images/Workday.png'),
+        title: 'WorkDay Scheduler',
+        description: 'Day Scheduler organize schedule for a day with time',
+        githubLink: 'https://github.com/deashawnogle/WorkDayScheduler',
+        deployedLink: 'https://deashawnogle.github.io/WorkDayScheduler/'
     },
     {
-        image: require(''),
-        title:,
-        altText:,
-        githubLink:
-        deployedLink:
+        image: require('../images/NoteTaker2.png'),
+        title: 'Note Taker',
+        description: 'Take personal Note on the Web',
+        githubLink: 'https://github.com/deashawnogle/DaesangOgle-Note-Taker',
+        deployedLink: 'https://daesangnotetaker.herokuapp.com/'
     },
 ]
 
 function projectCard() {
     return (
-
-    <div className="container">
-        <div className="row">
-            <div className="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div className="card-body">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text"></p>
+    
+    {projects.map((project, index) => {
+        return(
+                <div class="card" style="width: 18rem;">
+                    <img src={project.image} class="card-img-top" alt="Chicago Skyscrapers"/>
+                    <div class="card-body">
+                        <h5 class="card-title">{project.title}</h5>
+                        <p class="card-text">{project.description}</p>
+                    </div>
+                    <div class="card-body">
+                        <a href={project.githubLink} class="card-link">Github</a>
+                        <a href={project.deployedLink} class="card-link">Deployed link</a>
+                    </div>
                 </div>
-                    <ul className="list-group list-group-flush">
-                        <li className="list-group-item">An item</li>
-                    </ul>
-                <div className="card-body">
-                    <a href="#" className="card-link">Github Link</a>
-                    <a href="#" className="card-link">Deployed Link</a>
-                </div>
-            </div>
-        </div>
-    </div>
+            )
+        })}
     )
 }
 
