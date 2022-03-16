@@ -13,7 +13,7 @@ function About() {
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">BIO</h5>
                 <p class="card-text">
                     My Name is Daesang Ogle.
                     Served US Army Reserve 2010 to 2015
