@@ -70,7 +70,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Screenshot
 ------------
-<img src = "">
+<img src = "./portfolio.png">
 
 
 ## Contact
