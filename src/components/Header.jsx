@@ -1,7 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 
-function Header({ currentPage, handlePageChange }) {
+
+function Header({setCurrentPage}) {
     return (
         <header>
             <nav class="navbar navbar-expand-lg navbar-light bg-white">
@@ -23,13 +24,13 @@ function Header({ currentPage, handlePageChange }) {
                             <a class="nav-link" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./About">About</a>
+                            <a class="nav-link" href="#" onClick = {() =>setCurrentPage("About")} >About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./Project">Project</a>
+                            <a class="nav-link" href="#" onClick = {() =>setCurrentPage("Project")}>Project</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./Contact">Contact</a>
+                            <a class="nav-link" href="#" onClick = {() =>setCurrentPage("Contact")}>Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -38,3 +39,5 @@ function Header({ currentPage, handlePageChange }) {
         </header>
     )
 }
+
+export default Header

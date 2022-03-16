@@ -2,15 +2,23 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 function Contact () {
     return (
+        <div class="container">
+            <div class="row">
+                <div class="input-group">
+                    <span class="input-group-text">First and last name</span>
+                    <input type="text" aria-label="First name" class="form-control" />
+                    <input type="text" aria-label="Last name" class="form-control" />
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Email</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" />
+                </div>
 
-        <div className="container">
-            <ul class="list-group">
-                <li class="list-group-item">Phone# : (253)778-2393</li>
-                <li class="list-group-item"><a href="https://github.com/deashawnogle"> Github </a> : https://github.com/deashawnogle</li>
-                <li class="list-group-item">Email : deashawnogle@gmail.com</li>
-                <li class="list-group-item"><a href="https://www.linkedin.com/in/dae-sang-ogle-2a613712a/">Linkedin</a></li>
-                <li class="list-group-item"><a href="./resume/Resume.html">RESUME</a></li>
-            </ul>
+                <div class="input-group input-group-lg">
+                    <span class="input-group-text" id="inputGroup-sizing-lg">Message</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" />
+                </div>
+            </div>
         </div>
     )
 }

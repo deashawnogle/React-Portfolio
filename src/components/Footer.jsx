@@ -71,7 +71,7 @@ function Footer() {
             </div>
             </div>
         </section>
-        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        <div class="text-center p-4" style={{backgroundColor: "rgba(0, 0, 0, 0.05);"}}>
             © 2022 Copyright:
             <a class="text-reset fw-bold" href="https://github.com/deashawnogle">Daesang Ogle</a>
         </div>

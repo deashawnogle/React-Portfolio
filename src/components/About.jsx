@@ -1,13 +1,12 @@
-import 'bootstrap/dist/css/bootstrap.min.css'
 
 function About() {
   return (
 
-        <div class="card mb-3" style="max-width: 540px;">
+        <div class="card mb-3" style={{maxWidth: "540px;"}}>
           <div div class="row g-0">
             <div class="col-md-4">
               <img
-                src="../images/Daesang.jpg"
+                src="images/Daesang.jpg"
                 alt="Trendy Pants and Shoes"
                 class="img-fluid rounded-start"
               />
