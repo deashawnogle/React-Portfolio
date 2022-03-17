@@ -52,9 +52,9 @@ function projectCard() {
     {projects.map((project, index) => {
         
         return(
-                <div class="card" style={{width: "18rem;"}}>
+                <div class="card" style={{width: "2rem;"}}>
                     <img src={project.image} class="card-img-top" alt="Chicago Skyscrapers"/>
-                    <div class="card-body">
+                    <div class="card-body" className="card-image">
                         <h5 class="card-title">{project.title}</h5>
                         <p class="card-text">{project.description}</p>
                     </div>

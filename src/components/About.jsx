@@ -9,7 +9,7 @@ function About() {
           <div div class="row g-0">
             <div class="col-md-4">
               <img
-                src="../images/Daesang.jpg"
+                src="Daesang.jpg"
                 alt="Daesang"
                 class="img-fluid rounded-start"
               />
@@ -22,6 +22,7 @@ function About() {
                     Served US Army Reserve 2010 to 2015 <br></br>
                     Working at Samsung IT Helpdesk. (2015-Present) <br></br>
                     I Want to be Web Developer <br></br>
+                    <img src="resume.png"/>
                 </p>
                 <p class="card-text">
                   <small class="text-muted">Hello</small>

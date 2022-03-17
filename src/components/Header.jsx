@@ -6,7 +6,7 @@ import '../styles/Header.css';
 function Header({setCurrentPage}) {
     return (
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white"g>
                 <div class="container-fluid">
                 <button
                     class="navbar-toggler"
