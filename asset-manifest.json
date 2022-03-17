@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.2b1d0729.css",
-    "main.js": "/React-Portfolio/static/js/main.b3181c11.js",
+    "main.css": "/React-Portfolio/static/css/main.2f71ab99.css",
+    "main.js": "/React-Portfolio/static/js/main.1c13ae84.js",
     "static/media/Workday.png": "/React-Portfolio/static/media/Workday.b1c15770dab3c7d2f242.png",
     "static/media/Weather.png": "/React-Portfolio/static/media/Weather.621dc961b185305aa87a.png",
     "static/media/Wine.png": "/React-Portfolio/static/media/Wine.98a0f0e536f3503f4369.png",
@@ -9,11 +9,11 @@
     "static/media/CodeQuiz.png": "/React-Portfolio/static/media/CodeQuiz.2f2b91c931cfd6c72415.png",
     "static/media/PasswordGenerator.png": "/React-Portfolio/static/media/PasswordGenerator.e222c5713e3db348b989.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.2b1d0729.css.map": "/React-Portfolio/static/css/main.2b1d0729.css.map",
-    "main.b3181c11.js.map": "/React-Portfolio/static/js/main.b3181c11.js.map"
+    "main.2f71ab99.css.map": "/React-Portfolio/static/css/main.2f71ab99.css.map",
+    "main.1c13ae84.js.map": "/React-Portfolio/static/js/main.1c13ae84.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b1d0729.css",
-    "static/js/main.b3181c11.js"
+    "static/css/main.2f71ab99.css",
+    "static/js/main.1c13ae84.js"
   ]
 }
