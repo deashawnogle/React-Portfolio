@@ -6,3 +6,10 @@
 .section h2 {
   text-align: center;
 }
+
+.card-img-top {
+  text-align: center;
+  object-fit: cover;
+  width: 50%;
+  height: 50%;
+}
