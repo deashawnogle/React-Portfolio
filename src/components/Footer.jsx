@@ -53,7 +53,7 @@ function Footer() {
                     <a href="https://www.instagram.com/deashawn_ogle/" class="text-reset">Instagram</a>
                 </p>
                 <p>
-                    <a href="https://docs.google.com/document/d/1fG2zfi5PSrGMu6mT9mlPqkIvoMGnYHzetp1IKWTwUiQ/edit?usp=sharing" class="text-reset" download>Link for Resume</a>
+                    <a href="https://drive.google.com/file/d/1pd-8n5WrGtPryGtTTuc19EfxpYgYFPrE/view?usp=sharing" class="text-reset" download>Link for Resume</a>
                 </p>
                 </div>
                 <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
