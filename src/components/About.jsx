@@ -9,7 +9,7 @@ function About() {
           <div div class="row g-0">
             <div class="col-md-4">
               <img
-                src="./Daesang.jpg"
+                src="images/Daesang.jpg"
                 alt="Daesang"
                 class="img-fluid rounded-start"
               />
