@@ -53,7 +53,7 @@ function Footer() {
                     <a href="https://www.instagram.com/deashawn_ogle/" class="text-reset">Instagram</a>
                 </p>
                 <p>
-                    <a href="image/resume.png" download>Download Link for Resume</a>
+                    <a href="image/resume.png" download="resume">Download Link for Resume</a>
                 </p>
                 </div>
                 <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
